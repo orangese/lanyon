@@ -1,7 +1,7 @@
 # Setup
-title:               V-BIND
-tagline:             'Leveraging AI to design COVID-19 therapeutics'
-description:         'A novel language-based approach to designing miniprotein inhibitors of the SARS-CoV-2 spike protein. Created by <a href="https://www.linkedin.com/in/ryan-park-mhs/" target="_blank">Ryan Park</a>.'
+title:               Ryan Park
+tagline:             'From biometric security to safer airports to COVID-19 therapeutics'
+description:         "<a href='https://www.linkedin.com/in/ryan-park-mhs/' target='_blank'>Ryan Park</a>'s AI research portfolio."
 url:                 'https://orangese.github.io/'
 baseurl:             ''
 paginate:            5
