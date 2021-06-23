@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img style="float:left;margin:0px 15px" src="public/ryanpark.png" width="341.5" height="301">
+<img style="float:left;margin:15px 15px 0px 0px" src="public/ryanpark.png" width="341.5" height="301">
 
 Hi! I'm Ryan, and this is my research portfolio.
 
@@ -11,4 +11,4 @@ I'm a student at Millburn High School currently studying artificial intelligence
 
 My current research involves reformulating ideas from natural language processing to better understand protein dynamics, particularly in the context of physics-free *de-novo* drug design.
 
-For more information, please visit my [LinkedIn](https://www.linkedin.com/in/ryan-park-mhs/) or view my [resume](public/resume.pdf). You can reach me at ryanpark314@gmail.com.
+For more information, please visit my [LinkedIn](https://www.linkedin.com/in/ryan-park-mhs/) or view my [resume](public/resume.pdf). You can reach me at [ryanpark314@gmail.com](mailto:ryanpark314@gmail.com).
