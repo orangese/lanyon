@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-<img style="float:left;margin:15px 15px 0px 0px" src="public/ryanpark.png" width="341.5" height="301">
+<img style="float:left;margin:15px 15px 0px 0px" src="/public/ryanpark.png" width="341.5" height="301">
 
 Hi! I'm Ryan, and this is my research portfolio.
 
