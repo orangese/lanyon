@@ -3,27 +3,12 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+<img style="float:left;margin:0px 15px" src="public/ryanpark.png" width="341.5" height="301">
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Hi! I'm Ryan, and this is my research portfolio.
 
-There are currently two themes built on Poole:
+I'm a student at Millburn High School currently studying artificial intelligence and its various applications. For the past few years, I've worked on projects ranging from [facial recognition security systems](https://orangese.github.io//2020/11/1/aisecurity) to [AI-based drug design for COVID-19](https://orangese.github.io//2021/06/21/vbind/).
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+My current research involves reformulating ideas from natural language processing to better understand protein dynamics, particularly in the context of physics-free *de-novo* drug design.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+For more information, please visit my [LinkedIn](https://www.linkedin.com/in/ryan-park-mhs/) or view my [resume](public/resume.pdf). You can reach me at ryanpark314@gmail.com.
