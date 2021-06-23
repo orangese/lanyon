@@ -2,16 +2,17 @@
 title:               V-BIND
 tagline:             'Leveraging AI to design COVID-19 therapeutics'
 description:         'A novel language-based approach to designing miniprotein inhibitors of the SARS-CoV-2 spike protein. Created by <a href="https://www.linkedin.com/in/ryan-park-mhs/" target="_blank">Ryan Park</a>.'
-url:                 http://lanyon.getpoole.com
+url:                 'https://orangese.github.io/'
 baseurl:             ''
 paginate:            5
 permalink:           pretty
+markdown:            kramdown
 
 # About/contact
 author:
   name:              Ryan Park
   url:               https://www.linkedin.com/in/ryan-park-mhs/
-  email:             22parkr@millburn.org
+  email:             ryanpark314@gmail.com
 
 # Gems
 plugins:
