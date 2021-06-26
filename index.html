@@ -6,13 +6,14 @@ title: Home
 <div class="posts">
   <h1>Welcome to Ryan Park's research portfolio!</h1>
   <p>Scroll down to view each research project post, ordered by date.
-  To see more about me, go to my <a href="{{ post.url }}">About</a> page. To view my GitHub, go to my <a href="https://github.com/orangese">homepage.</a></p>
+  To see more about me, go to my <a href="{{ post.url }}/about/">About</a> page. To view my GitHub, go to my <a href="https://github.com/orangese">homepage.</a></p>
   <hr>
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
+	{% assign title = post.title | split: "–" %}
+	<strong>{{ title[0] }}</strong>: {{ title[1] }}
       </a>
     </h1>
 
