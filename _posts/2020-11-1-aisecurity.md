@@ -19,7 +19,7 @@ AISecurity is a full-stack project consisting of several parts:
 1. **Physical kiosks**
 
 <img style="float:left;margin:0px 15px 0px 35px" src="/public/kiosks.png" width="312" height="311"> 
-The outmost physical component of AISecurity is a wooden kiosk, designed to house the necessary hardware for sign-in to work. On the left, three kiosk frames are displayed during the development process.
+The outmost physical component of AISecurity is a wooden kiosk, designed to house the necessary hardware for sign-in to work. In the embedded image, three kiosk frames are displayed during the development process.
 
 The frames were custom-cut and ordered for this sign-in system. 
 <br><br><br>
@@ -58,5 +58,5 @@ In addition to Millburn’s cybersecurity system, AISecurity has an internal thr
 
 ### Slide Presentation
 <object data="/public/aisecurity.pdf" type="application/pdf" width="720px" height="    405px">
-  <p>If your browser doesn't support inline PDF viewing, you can see my presen    tation <a href="/public/aisecurity.pdf">here</a>.</p>
+  <p>If your browser doesn't support inline PDF viewing, you can see my presentation <a href="/public/aisecurity.pdf">here</a>.</p>
 </object>
