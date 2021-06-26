@@ -16,14 +16,18 @@
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% assign posts_list = site.posts | sort:"url" %}
-    {% assign all_sidebar = pages_list | concat: posts_list %}
+<!--    {% assign pages_list = site.pages | sort:"url" %}-->
+<!--    {% assign posts_list = site.posts | sort:"url" %}-->
+<!--    {% assign all_sidebar = pages_list | concat: posts_list %}-->
+    {% assign all_sidebar = site.posts %}
+    {% assign i = 0 %}
     {% for node in all_sidebar %}
+      {% assign i = i | plus: 1 %}
       {% if node.title != null %}
         {% if node.layout == "post" %}
 	  {% assign title = node.title | split: "–" %}
-	  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}"><strong>{{ title[0] }}</strong>: {{ title[1] }}</a>
+<!--          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}"><strong>{{ title[0] }}</strong>: {{ title[1] }}</a>-->
+<a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ i }}. <strong>{{ title[0] }}</strong></a>
 	{% else if node.layout == "page" %}
 	  {% if node.title != "Home" and node.title != "404: Page not found" %}
 	    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>

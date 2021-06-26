@@ -5,38 +5,39 @@ title: Home
 
 <div class="posts">
   <h1>Welcome to Ryan Park's research portfolio!</h1>
-  <p>Scroll down to view each research project post, ordered by date.
-  To see more about me, go to my <a href="{{ post.url }}/about/">About</a> page. To view my GitHub, go to my <a href="https://github.com/orangese">homepage.</a></p>
+  <p>Hi! I'm Ryan, and this is my research portfolio.</p>
+  <img style="float:left;margin:0px 15px 0px 0px" src="/public/ryanpark.png" width="341.5" height="301">
+  <p>I'm a student at Millburn High School currently studying artificial intelligence and its various applications. For the past few years, I've worked on projects ranging from <a href="{{ site.url }}/2020/11/01/aisecurity/">facial recognition security systems</a> to <a href="{{ site.url }}/2021/06/21/vbind/">AI-based drug design for COVID-19</a>.</p>
+  <p>You can scroll down or browse the sidebar to view each research project.</p>
+  <p>My current research involves reformulating ideas from natural language processing to better understand protein dynamics, particularly in the context of physics-free <i>de-novo</i> drug design.</p>
+  <p>For more information, please visit my <a href="https://www.linkedin.com/in/ryan-park-mhs/">LinkedIn</a>, view my <a href="/public/resume.pdf">resume</a>, or browse my <a href="https://github.com/orangese">GitHub</a>. You can reach me at <a href="mailto:ryanpark314@gmail.com">ryanpark314@gmail.com</a>.</p>
   <hr>
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
+<!--  <div class="post">-->
+    <h2 class="post-title">
       <a href="{{ post.url | absolute_url }}">
 	{% assign title = post.title | split: "–" %}
 	<strong>{{ title[0] }}</strong>: {{ title[1] }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
+<!--  </div>-->
   {% endfor %}
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<!--<div class="pagination">-->
+<!--  {% if paginator.next_page %}-->
+<!--    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>-->
+<!--  {% else %}-->
+<!--    <span class="pagination-item older">Older</span>-->
+<!--  {% endif %}-->
+<!--  {% if paginator.previous_page %}-->
+<!--    {% if paginator.page == 2 %}-->
+<!--      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>-->
+<!--    {% else %}-->
+<!--      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>-->
+<!--    {% endif %}-->
+<!--  {% else %}-->
+<!--    <span class="pagination-item newer">Newer</span>-->
+<!--  {% endif %}-->
+<!--</div>-->
