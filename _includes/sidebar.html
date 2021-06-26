@@ -23,7 +23,7 @@
       {% if node.title != null %}
         {% if node.layout == "post" %}
 	  {% assign title = node.title | split: "–" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}"><strong>{{ title[0] }}</strong>: {{ title[1] }}</a>
+	  <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}"><strong>{{ title[0] }}</strong>: {{ title[1] }}</a>
 	{% else if node.layout == "page" %}
 	  {% if node.title != "Home" and node.title != "404: Page not found" %}
 	    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>

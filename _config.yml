@@ -2,7 +2,7 @@
 title:               Ryan Park
 tagline:             'From biometric security to safer airports to COVID-19 therapeutics'
 description:         "<a href='https://www.linkedin.com/in/ryan-park-mhs/' target='_blank'>Ryan Park</a>'s AI research portfolio."
-url:                 'https://orangese.github.io/'
+url:                 'http://127.0.0.1:4000/' #'https://orangese.github.io/'
 baseurl:             ''
 paginate:            1
 permalink:           pretty
